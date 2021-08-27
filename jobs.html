@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Profiles</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="OWLcarusel/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="OWLcarusel/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="top">
+    <div class="container">
+        <nav class="col-12 d-flex justify-content-between">
+            <div class="d-flex mt-2" data-aos="fade-right"data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
+                <img src="assets/icons/logo.png" alt="error" class="logo">
+                <div class="d-flex form">
+                    <input type="text" placeholder="Search" id="search" class="form-control">
+                    <button type="button" class="btn bg-light mx-n1" onclick="mainSearch()"><img src="assets/icons/poisk.png" alt="error"></button>
+                </div>
+            </div>
+
+            <ul class="nav nav-link navbar-nav navbar-expand " data-aos="zoom-in-down"data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                <div class="d-flex justify-content-between">
+                    <li><a href="index.html"><img src="assets/icons/home2.png" alt="" class="ml-3">
+                        <p>Home</p></a></li>
+                    <li><a href=" companies.html"><img src="assets/icons/kompanies.png" alt="">
+                        <p>Companies</p></a></li>
+                    <li><a href="projects.html"><img src="assets/icons/projects.png" alt="">
+                        <p>Projects</p></a></li>
+                    <li><a href="profiles.html"><img src="assets/icons/profiles.png" alt="">
+                        <p>Profiles</p></a></li>
+                </div>
+
+                <li><a href="jobs.html"><img src="assets/icons/jobs.png" alt="" class="ml-2">
+                    <p>Jobs</p></a></li>
+                <li><a href="message.html"><img src="assets/icons/sms1.png" alt="">
+                    <p>Message</p></a></li>
+                <li><a href="notification.html"><img src="assets/icons/notification.png" alt="">
+                    <p>Notification</p></a></li>
+
+            </ul>
+
+
+            <div class="cont">
+
+                <a href="#" class="bur"  data-aos="zoom-in-down"
+                   data-aos-easing="ease-out-cubic"
+                   data-aos-duration="2000" data-toggle="modal" data-target="#myModal"><img src="assets/icons/burger-top1.svg" alt=""></a>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-body">
+                                <ul class="nav nav-link navbar-nav navbar-expand d-block" data-aos="zoom-in-down"data-aos-easing="ease-out-cubic"
+                                    data-aos-duration="2000">
+                                    <div class="d-flex justify-content-between">
+                                        <li><a href="index.html"><img src="assets/icons/home2.png" alt="" class="ml-3">
+                                            <p>Home</p></a></li>
+                                        <li><a href=" companies.html"><img src="assets/icons/kompanies.png" alt="">
+                                            <p>Companies</p></a></li>
+                                        <li><a href="projects.html"><img src="assets/icons/projects.png" alt="">
+                                            <p>Projects</p></a></li>
+                                        <li><a href="profiles.html"><img src="assets/icons/profiles.png" alt="">
+                                            <p>Profiles</p></a></li>
+                                    </div>
+                                    <div class="d-flex mt-3">
+                                        <li><a href="jobs.html"><img src="assets/icons/jobs.png" alt="" class="ml-2">
+                                            <p>Jobs</p></a></li>
+                                        <li><a href="message.html"><img src="assets/icons/sms1.png" alt="">
+                                            <p>Message</p></a></li>
+                                        <li><a href="notification.html"><img src="assets/icons/notification.png" alt="">
+                                            <p>Notification</p></a></li>
+                                    </div>
+                                </ul>
+
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="dropdown" data-aos="fade-left"data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
+                <button class="btn dropdown-toggle text-white " type="button" data-toggle="dropdown">
+                    <img src="assets/images/card-1circle.svg" alt="">
+                    John
+                    <span class="caret text-white"></span></button>
+                <ul class="dropdown-menu bg-danger">
+                    <li><a href="#" class="text-decoration-none">HTML</a></li>
+                    <li><a href="#" class="text-decoration-none">CSS</a></li>
+                    <li><a href="#" class="text-decoration-none">JavaScript</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </div>
+
+</div>
+<div class="main mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-3 offset-lg-5" data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
+                <div class="card text-center track">
+                    <div class="card-body">
+                        <img src="assets/icons/logo.png" alt="" class="log">
+                        <h6>Track Time on Workwise</h6>
+                        <p>Pay only for Hours worked</p>
+                    </div>
+                    <div class="card-footer bg-white">
+                        <h5>SIGN UP</h5>
+                        <a href="#" class="text-decoration-none">Learn more</a>
+
+                    </div>
+
+                </div>
+                <div class="card mt-4 jobs">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <h5>Top Jobs</h5>
+                        <a href="#" class="h-50"><img src="assets/icons/Group%203.png" alt=""></a>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <h6>Senior Product Designer <span class="ml-3">$25/hr</span></h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+                        <div>
+                            <h6>Senior Product Designer <span class="ml-3">$25/hr</span></h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+
+                        <div>
+                            <h6>Senior Product Designer <span class="ml-3">$25/hr</span></h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+
+                        <div>
+                            <h6>Senior Product Designer <span class="ml-3">$25/hr</span></h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+
+                        <div>
+                            <h6>Senior Product Designer <span class="ml-3">$25/hr</span></h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card mt-4 jobs">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <h5>Most Viewed This Week</h5>
+                        <a href="#" class="h-50"><img src="assets/icons/Group%203.png" alt=""></a>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <h6>Senior Product Designer <span class="ml-3">$25/hr</span></h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+                        <div>
+                            <h6>Senior Product Designer <span class="ml-3">$25/hr</span></h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+
+                        <div>
+                            <h6>Senior Product Designer <span class="ml-3">$25/hr</span></h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card mt-4 box-2 ">
+                    <div class="card-header d-flex">
+                        <h5>Suggestions</h5>
+                        <a href="#" class="ml-auto h-50 mt-1"><img src="assets/icons/Group%203.png" alt=""></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <img src="assets/images/card-8circle.svg" alt="">
+                            <div class="ml-2">
+                                <h6>Jesica William</h6>
+                                <p>Graphic Designer</p>
+                            </div>
+                            <div class="plyus">
+                                <a href="#"><p>+</p></a>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <img src="assets/images/card-1circle.svg" alt="">
+                            <div class="ml-2">
+                                <h6>John Doe</h6>
+                                <p>PHP Developer</p>
+                            </div>
+                            <div class="plyus">
+                                <a href="#"><p>+</p></a>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <img src="assets/images/card-2circle.svg" alt="">
+                            <div class="ml-2">
+                                <h6>Poonam</h6>
+                                <p>Wordpress Developer</p>
+                            </div>
+                            <div class="plyus">
+                                <a href="#"><p>+</p></a>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <img src="assets/images/card-6circle.svg" alt="">
+                            <div class="ml-2">
+                                <h6>Bill Gates</h6>
+                                <p>C & C++ Developer</p>
+                            </div>
+                            <div class="plyus">
+                                <a href="#"><p>+</p></a>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <img src="assets/images/card-3circle.svg" alt="">
+                            <div class="ml-2">
+                                <h6>Jessica Armstrong</h6>
+                                <p>Graphic Designer</p>
+                            </div>
+                            <div class="plyus">
+                                <a href="#"><p>+</p></a>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <img src="assets/images/card-6circle.svg" alt="">
+                            <div class="ml-2">
+                                <h6>John Doe</h6>
+                                <p>PHP Developer</p>
+                            </div>
+                            <div class="plyus">
+                                <a href="#"><p>+</p></a>
+                            </div>
+                        </div>
+                        <div class="text-center view">
+                            <a href="#"><p>View More</p></a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<script src="OWLcarusel/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+
+
+<script src="js/main.js"></script>
+
+
+
+</body>
+</html>
